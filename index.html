@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-6xl font-bold mt-10">Welcome to our</h1>
+        <h2 class="text-center text-7xl text-red-600 text-semibold mt-5">payoneer</h2>
+    </header>
+    
+
+    <section class="w-3/4 mx-auto mt-20">
+
+        <div class="grid grid-cols-3 gap-5">
+            <div class="bg-blue-500 text-white p-8 rounded-lg">
+                <h3 class="text-2xl">Deposite</h3>
+                <h4 class="text-4xl font-semibold">$ <span id="deposite-total">000</span></h4>
+            </div>
+            <div class="bg-yellow-500 text-white rounded-lg p-8">
+                <h3 class="text-2xl">Widthrow</h3>
+                <h4 class="text-4xl font-semibold">$ <span id="widthrow-total">000</span></h4>
+            </div>
+            <div class="bg-green-500 text-white rounded-lg p-8">
+                <h3 class="text-2xl">Balance</h3>
+                <h4 class="text-4xl font-semibold">$ <span id="balance-total">000</span></h4>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-5">
+            <div class="bg-green-500 p-8 rounded-lg text-white mt-8">
+                <h3 class="text-2xl">Please Deposite</h3>
+                <input id="deposite-input" class="w-3/4 h-8 rounded mt-4 px-3" type="number"placeholder="$ Please Give Deposite Amount">
+                <button id="deposite-button" class="text-white bg-blue-500 rounded font-semibold py-2 px-3 block mt-3"> Deposite </button>
+            </div>
+
+            <div class="bg-red-500 p-8 rounded-lg text-white space-y-4 mt-8">
+                <h3 class="text-2xl">Please Widthrow</h3>
+                <input id="widthrow" class="w-3/4 h-8 rounded mt-4 px-3" type="number"placeholder="$ Please Give Withdraw Amount">
+                <button id="widthrow" class="text-white bg-blue-500 rounded font-semibold py-2 px-3 block mt-3"> Deposite </button>
+            </div>
+           
+
+        </div>
+    </section>
+    
+</body>
+</html>
